@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="nopcommerce" duration-ms="22542" started-at="2020-06-02T17:40:45Z" finished-at="2020-06-02T17:41:08Z">
+    <groups>
+    </groups>
+    <test name="TC_LoginTest_001" duration-ms="15732" started-at="2020-06-02T17:40:45Z" finished-at="2020-06-02T17:41:01Z">
+      <class name="com.nopcommerce.testcases.TC_LoginTest_001">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.nopcommerce.testcases.TC_LoginTest_001@6e20b53a]" name="setUp" is-config="true" duration-ms="8319" started-at="2020-06-02T17:40:46Z" finished-at="2020-06-02T17:40:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.nopcommerce.testcases.TC_LoginTest_001@6e20b53a]" name="loginTest" duration-ms="7281" started-at="2020-06-02T17:40:54Z" finished-at="2020-06-02T17:41:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.nopcommerce.testcases.TC_LoginTest_001 -->
+    </test> <!-- TC_LoginTest_001 -->
+    <test name="TC_SearchCustomer_004" duration-ms="22542" started-at="2020-06-02T17:40:45Z" finished-at="2020-06-02T17:41:08Z">
+      <class name="com.nopcommerce.testcases.TC_SearchCustomer_004">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.nopcommerce.testcases.TC_SearchCustomer_004@12468a38]" name="setUp" is-config="true" duration-ms="7909" started-at="2020-06-02T17:40:46Z" finished-at="2020-06-02T17:40:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchCustomerByEmail()[pri:0, instance:com.nopcommerce.testcases.TC_SearchCustomer_004@12468a38]" name="searchCustomerByEmail" duration-ms="14513" started-at="2020-06-02T17:40:53Z" finished-at="2020-06-02T17:41:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCustomerByEmail -->
+      </class> <!-- com.nopcommerce.testcases.TC_SearchCustomer_004 -->
+    </test> <!-- TC_SearchCustomer_004 -->
+  </suite> <!-- nopcommerce -->
+</testng-results>
